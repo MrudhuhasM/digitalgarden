@@ -7,7 +7,6 @@
 
 Machine learning engineer with 7+ years of experience in building and deploying models, specializing in natural language processing (NLP), large language models (LLMs), and generative AI (GenAI). I have worked extensively with modern architectures such as transformers (BERT, GPT-2) and transfer learning. My expertise includes deploying models on cloud platforms like AWS, with hands-on experience using Docker, Kubernetes, FastAPI, and microservice architectures. Additionally, I am familiar with web technologies, making me versatile in AI-driven solutions.
 
-:LiMail: mrudhuhas@gmail.com,  :LiTwitter: [Mrudhuhas (@_mrudhu_) / X](https://x.com/_mrudhu_)
 
 ## ✍ Blogs
 
@@ -21,8 +20,14 @@ Machine learning engineer with 7+ years of experience in building and deploying 
 - [[Home/Sentiment Analysis with Naive Bayes Classifier\|Sentiment Analysis with Naive Bayes Classifier]]
 - [[Home/Understanding Overfitting in Machine Learning\|Understanding Overfitting in Machine Learning]]
 
+
 ## 🖥 Projects
 
 - [AI-Powered Story Generator](https://example.com/project1)
 - [Real-Time Toxicity Detection](https://example.com/project2)
 - [Automated Legal Document Classification](https://example.com/project3)
+
+
+---
+☎ Contact :   mrudhuhas@gmail.com,   [Mrudhuhas (@_mrudhu_) / X](https://x.com/_mrudhu_)
+
