@@ -120,4 +120,6 @@ While regularization can help prevent overfitting, it is crucial to choose an ap
 
 Overfitting is a common challenge in machine learning, where a model becomes too tailored to the training data, capturing noise instead of the underlying pattern. This can be mitigated by increasing the amount of training data and applying regularization techniques, such as L1 and L2 regularization, which penalize overly complex models. By selecting the appropriate model complexity and regularization parameters, we can create models that generalize well and are robust to noise in the training data.
 
-code for generating the data and fitting the models can be found [here](https://github.com/MrudhuhasM/code/blob/main/polynomial_fitting.ipynb)
+**Resources** :
+- [Pattern Recognition and Machine Learning-Bishop]([Pattern Recognition and Machine Learning](https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf))
+- code for generating the data and fitting the models can be found [here](https://github.com/MrudhuhasM/code/blob/main/polynomial_fitting.ipynb)
