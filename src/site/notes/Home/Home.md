@@ -24,11 +24,10 @@ Machine learning engineer with 7+ years of experience in building and deploying 
 
 ## 🖥 Projects
 
-- [AI-Powered Story Generator](https://example.com/project1)
-- [Real-Time Toxicity Detection](https://example.com/project2)
-- [Automated Legal Document Classification](https://example.com/project3)
+- [Brochure Generation]([MrudhuhasM/brochure-generation](https://github.com/MrudhuhasM/brochure-generation))
 
 
 ---
-☎ Contact :   mrudhuhas@gmail.com,   [Mrudhuhas (@_mrudhu_) / X](https://x.com/_mrudhu_)
-
+:LiMail: mrudhuhas@gmail.com
+:LiX: [Mrudhuhas (@_mrudhu_) / X](https://x.com/_mrudhu_)
+:LiGithub: [MrudhuhasM (Mrudhuhas)](https://github.com/MrudhuhasM)

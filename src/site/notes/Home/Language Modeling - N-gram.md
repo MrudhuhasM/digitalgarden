@@ -3,8 +3,6 @@
 ---
 
 
-# **Language Modeling – N-gram**
-
 Language modeling is a fundamental concept in natural language processing (NLP), enabling machines to understand and generate human-like text. At its core, a language model assigns probabilities to sequences of words, predicting the likelihood of the next word based on context. While modern deep learning-based models like transformers dominate today's NLP landscape, traditional statistical approaches, such as n-gram language models, laid the groundwork for many advancements in the field.
 
 In this blog, we'll explore the foundations of n-gram models, how they work, their strengths and limitations, and how they compare to more sophisticated approaches. Understanding these classical techniques provides valuable insights into the evolution of language modeling and why more advanced models were developed.
