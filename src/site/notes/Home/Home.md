@@ -7,6 +7,8 @@
 
 Machine learning engineer with 7+ years of experience in building and deploying models, specializing in natural language processing (NLP), large language models (LLMs), and generative AI (GenAI). I have worked extensively with modern architectures such as transformers (BERT, GPT-2) and transfer learning. My expertise includes deploying models on cloud platforms like AWS, with hands-on experience using Docker, Kubernetes, FastAPI, and microservice architectures. Additionally, I am familiar with web technologies, making me versatile in AI-driven solutions.
 
+📧 mrudhuhas@gmail.com  | 🖥[MrudhuhasM (Mrudhuhas)](https://github.com/MrudhuhasM)  | 📱 [Mrudhuhas (@_mrudhu_) / X](https://x.com/_mrudhu_)
+
 
 ## ✍ Blogs
 
@@ -24,10 +26,7 @@ Machine learning engineer with 7+ years of experience in building and deploying 
 
 ## 🖥 Projects
 
-- [Brochure Generation]([MrudhuhasM/brochure-generation](https://github.com/MrudhuhasM/brochure-generation))
+- [Brochure Generation](https://github.com/MrudhuhasM/brochure-generation)
 
 
 ---
-:LiMail: mrudhuhas@gmail.com
-:LiX: [Mrudhuhas (@_mrudhu_) / X](https://x.com/_mrudhu_)
-:LiGithub: [MrudhuhasM (Mrudhuhas)](https://github.com/MrudhuhasM)
