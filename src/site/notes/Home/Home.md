@@ -8,7 +8,7 @@
   
   <div class="profile-bio">
     <p>I'm a Machine Learning Engineer with over 7 years of experience building and deploying AI solutions. My focus lies in Natural Language Processing, Large Language Models, and Generative AI. I work across the stack — from training transformer architectures like BERT and GPT-2 to deploying scalable microservices on the cloud using Docker, Kubernetes, and FastAPI.</p>
-    
+
     <p>In recent years, I've been deeply involved in projects that combine deep learning with practical applications — building tools, deploying models, and continuously learning from the evolving AI ecosystem.</p>
   </div>
   
@@ -26,7 +26,7 @@
 <div class="blog-grid">
 
 <div class="blog-card">
-  <a href="/Language Modeling - N-gram">
+  <a href="\Language Modeling - N-gram">
     <h3>Language Modeling - N-gram</h3>
     <p class="description">A walkthrough of statistical language models and how they evolved from simple counts to probabilistic approaches.</p>
     <div class="tags">
@@ -144,4 +144,3 @@ These are a few projects I’ve built, published, or am currently exploring:
 - [🧾 Brochure Generation](https://github.com/MrudhuhasM/brochure-generation)
 
 ---
-
