@@ -15,83 +15,67 @@ In recent years, I've been deeply involved in projects that combine deep learnin
 
 ---
 
-## ✍️ Blog Posts
+  ## ✍️ Blog Posts
 
-<div class="blog-grid">
-
-  <div class="blog-card">
-    <a href="/Understanding Tokenizers">
-      <h3>Understanding Tokenizers</h3>
-      <p class="description">Breakdown of how tokenizers work in NLP and why they're critical.</p>
-      <span class="tag">#nlp</span>
-    </a>
+  <div class="blog-entry">
+    <a href="/Language Modeling - N-gram"><h3>Language Modeling - N-gram</h3></a>
+    <p>A walkthrough of statistical language models and how they evolved.</p>
+    <p class="blog-tags">#nlp #language-modeling</p>
   </div>
 
-  <div class="blog-card">
-    <a href="/Embeddings">
-      <h3>Embeddings</h3>
-      <p class="description">What embeddings are and how they capture semantic meaning.</p>
-      <span class="tag">#vectorization</span>
-    </a>
+  <div class="blog-entry">
+    <a href="/Text classification from BOW to Transformers (1)"><h3>Text Classification (1)</h3></a>
+    <p>From bag-of-words to transformer models: Part 1 of the journey.</p>
+    <p class="blog-tags">#text-classification #transformers</p>
   </div>
 
-  <div class="blog-card">
-    <a href="/Sentiment Analysis with Logistic Regression">
-      <h3>Sentiment Analysis with Logistic Regression</h3>
-      <p class="description">Using logistic regression for sentiment analysis tasks.</p>
-      <span class="tag">#sentiment-analysis</span>
-    </a>
+  <div class="blog-entry">
+    <a href="/Text classification from BOW to Transformers (2)"><h3>Text Classification (2)</h3></a>
+    <p>Continuing the exploration of text classification techniques.</p>
+    <p class="blog-tags">#text-classification #transformers</p>
   </div>
-  <div class="blog-card">
-    <a href="/Sentiment Analysis with Naive Bayes Classifier">
-      <h3>Sentiment Analysis with Naive Bayes Classifier</h3>
-      <p class="description">Exploring Naive Bayes for sentiment classification.</p>
-      <span class="tag">#sentiment-analysis</span>
-    </a>
+
+  <div class="blog-entry">
+    <a href="/Topic Modeling with Semantic Vectors"><h3>Topic Modeling with Semantic Vectors</h3></a>
+    <p>Uncovering hidden meanings in text using semantic vectors.</p>
+    <p class="blog-tags">#topic-modeling #nlp</p>
   </div>
-  <div class="blog-card">
-    <a href="/Understanding Overfitting in Machine Learning">
-      <h3>Understanding Overfitting in Machine Learning</h3>
-      <p class="description">A deep dive into overfitting and how to mitigate it.</p>
-      <span class="tag">#machine-learning</span>
-    </a>
+
+  <div class="blog-entry">
+    <a href="/Transforming Text into Numbers for Machine Learning - Vectorization"><h3>Text to Numbers - Vectorization</h3></a>
+    <p>How to convert text data into numerical format for ML models.</p>
+    <p class="blog-tags">#vectorization #ml</p>
   </div>
-  <div class="blog-card">
-    <a href="/Transforming Text into Numbers for Machine Learning - Vectorization">
-      <h3>Transforming Text into Numbers for Machine Learning - Vectorization</h3>
-      <p class="description">How to convert text data into numerical format for ML models.</p>
-      <span class="tag">#vectorization</span>
-    </a>
+
+  <div class="blog-entry">
+    <a href="/Understanding Overfitting in Machine Learning"><h3>Understanding Overfitting</h3></a>
+    <p>A deep dive into overfitting and how to mitigate it.</p>
+    <p class="blog-tags">#machine-learning #overfitting</p>
   </div>
-  <div class="blog-card">
-    <a href="/Topic Modeling with Semantic Vectors - Uncovering Hidden Meanings">
-      <h3>Topic Modeling with Semantic Vectors - Uncovering Hidden Meanings</h3>
-      <p class="description">Using semantic vectors for topic modeling in NLP.</p>
-      <span class="tag">#topic-modeling</span>
-    </a>
+
+  <div class="blog-entry">
+    <a href="/Sentiment Analysis with Naive Bayes Classifier"><h3>Sentiment Analysis with Naive Bayes</h3></a>
+    <p>Exploring Naive Bayes for sentiment classification.</p>
+    <p class="blog-tags">#sentiment-analysis #naive-bayes</p>
   </div>
-  <div class="blog-card">
-    <a href="/Text classification from BOW to Transformers (2)">
-      <h3>Text classification from BOW to Transformers (2)</h3>
-      <p class="description">Exploring advanced text classification techniques.</p>
-      <span class="tag">#text-classification</span>
-    </a>
+
+  <div class="blog-entry">
+    <a href="/Sentiment Analysis with Logistic Regression"><h3>Sentiment Analysis with Logistic Regression</h3></a>
+    <p>Using logistic regression for sentiment analysis tasks.</p>
+    <p class="blog-tags">#sentiment-analysis #logistic-regression</p>
   </div>
-  <div class="blog-card">
-    <a href="/Text classification from BOW to Transformers (1)">
-      <h3>Text classification from BOW to Transformers (1)</h3>
-      <p class="description">An introduction to text classification methods.</p>
-      <span class="tag">#text-classification</span>
-    </a>
+
+  <div class="blog-entry">
+    <a href="/Embeddings"><h3>Understanding Embeddings</h3></a>
+    <p>What embeddings are and how they capture semantic meaning.</p>
+    <p class="blog-tags">#embeddings #nlp</p>
   </div>
-  <div class="blog-card">
-    <a href="/Language Modeling - N-gram">
-      <h3>Language Modeling - N-gram</h3>
-      <p class="description">Understanding N-grams in language modeling.</p>
-      <span class="tag">#language-modeling</span>
-    </a>
+
+  <div class="blog-entry">
+    <a href="/Text Classification with Transformers"><h3>Text Classification with Transformers</h3></a>
+    <p>Exploring advanced text classification techniques using transformers.</p>
+    <p class="blog-tags">#text-classification #transformers</p>
   </div>
-</div>
 
 
 ---
