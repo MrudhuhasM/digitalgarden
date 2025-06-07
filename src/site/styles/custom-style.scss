@@ -34,15 +34,37 @@ header[role="banner"],
 .navbar:before,
 header[role="banner"]:before, 
 .site-header:before {
-  content: "Digital Garden";
-  position: absolute;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
+  content: "";
+  display: none;
+}
+
+/* Change site title to "Blog" */
+.site-title span,
+.site-nav .logo a span,
+.navbar-inner .logo a span,
+a.navbar-item[href="/"] span {
+  display: none !important;
+}
+
+.site-title:after,
+.site-nav .logo a:after,
+.navbar-inner .logo a:after,
+a.navbar-item[href="/"]:after {
+  content: "Blog" !important;
+  display: inline !important;
+}
+
+/* Add gradient effect to the Blog title */
+.site-title:after,
+.site-nav .logo a:after,
+.navbar-inner .logo a:after,
+a.navbar-item[href="/"]:after {
+  background: linear-gradient(90deg, var(--accent), #74c0fc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
   font-weight: 700;
-  font-size: 1.25rem;
-  color: var(--text-primary);
-  display: none; /* Hide this custom title too */
 }
 
 /* Global styles */
@@ -259,51 +281,22 @@ blockquote cite {
 }
 
 .project-card {
-  background-color: var(--bg-secondary);
-  padding: 1.5rem;
-  border-radius: 12px;
-  box-shadow: var(--card-shadow);
-  transition: transform var(--transition), background-color var(--transition), border-color var(--transition);
-  border: 1px solid var(--border);
-  position: relative;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-}
-
-.project-card:hover {
-  transform: translateY(-4px);
-  background-color: var(--bg-tertiary);
-  border-color: var(--accent);
+  padding: 0;
+  border: none;
+  border-radius: 0;
+  background-color: transparent;
+  box-shadow: none;
 }
 
 .project-card h3 {
-  margin: 0 0 0.8rem 0;
-  font-size: 1.35rem;
-  font-weight: 700;
-  color: var(--text-primary);
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
 }
 
+/* Hide the emoji icons */
 .project-card .emoji {
-  background: linear-gradient(135deg, rgba(77, 171, 247, 0.2), rgba(116, 192, 252, 0.2));
-  width: 36px;
-  height: 36px;
-  border-radius: 50%;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  margin-right: 0.75rem;
-  font-size: 20px;
-  box-shadow: 0 2px 8px rgba(77, 171, 247, 0.15);
-  transition: all 0.3s ease;
-}
-
-.project-card:hover .emoji {
-  transform: scale(1.1) rotate(5deg);
-  box-shadow: 0 4px 12px rgba(77, 171, 247, 0.25);
+  display: none;
 }
 
 .project-card .description {
@@ -311,83 +304,107 @@ blockquote cite {
   margin-bottom: 1.2rem;
   line-height: 1.6;
   font-size: 0.95rem;
-  flex-grow: 1;
 }
 
-.project-tech {
-  margin: 1rem 0;
-  display: flex;
-  gap: 0.5rem;
-  flex-wrap: wrap;
-  margin-bottom: 1rem;
-}
-
-/* Tech tags styling */
-.tech-tag {
-  background-color: rgba(77, 171, 247, 0.15); /* Lighter accent-colored background */
-  color: var(--accent);
-  border: 1px solid rgba(77, 171, 247, 0.3);
-  padding: 3px 8px;
-  font-size: 0.7rem;
-  letter-spacing: 0.02em;
-  text-transform: uppercase;
-  font-weight: 600;
-  transition: background-color var(--transition), color var(--transition);
-  display: inline-flex;
-  align-items: center;
-  white-space: nowrap;
-  position: relative;
-  overflow: hidden;
-  border-radius: 4px; /* Square-ish compared to blog tags */
-}
-
-.tech-tag::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(90deg, rgba(255,255,255,0.1), rgba(255,255,255,0));
-  transform: translateX(-100%);
-  transition: transform 0.6s ease;
-}
-
-.tech-tag:hover::after {
-  transform: translateX(100%);
-}
-
-.tech-tag:hover {
-  background-color: var(--accent);
-  color: white;
-  border-color: var(--accent);
-  transform: translateY(-1px);
-}
-
-/* Add a slight glow effect on hover */
-.tech-tag:hover {
-  box-shadow: 0 0 8px rgba(77, 171, 247, 0.4);
-}
-
+/* Project links styling */
 .project-links {
+  margin-top: 0.5rem;
   display: flex;
-  gap: 1rem;
-  margin-top: 1rem;
+  align-items: center;
 }
 
 .project-links a {
   display: inline-flex;
   align-items: center;
-  gap: 0.5rem;
+  background: none;
+  padding: 0;
+  margin-right: 1.5rem;
   color: var(--accent);
-  font-size: 0.9rem;
-  font-weight: 500;
-  transition: color var(--transition);
+  font-size: 0.95rem;
 }
 
 .project-links a:hover {
+  background: none;
+  transform: none;
   color: var(--accent-hover);
-  text-decoration: none;
+  text-decoration: underline;
+}
+
+.project-tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1rem;
+  color: var(--text-secondary);
+}
+
+/* Tech tags styling - simple text with dots between them */
+.tech-tag {
+  display: inline;
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  padding: 0;
+  text-transform: none;
+  font-weight: normal;
+  letter-spacing: normal;
+  position: relative;
+}
+
+/* Add dot separators between tech tags */
+.project-tech .tech-tag:not(:last-child)::after {
+  content: '•';
+  display: inline-block;
+  margin-left: 0.75rem;
+  color: var(--text-muted);
+  opacity: 0.7;
+}
+
+.tech-tag:hover {
+  color: var(--accent);
+}
+
+.project-links {
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.project-links a {
+  display: inline-flex;
+  align-items: center;
+  background: none;
+  padding: 0;
+  margin-right: 1.5rem;
+  color: var(--accent);
+  font-size: 0.95rem;
+}
+
+.project-links a:hover {
+  background: none;
+  transform: none;
+  color: var(--accent-hover);
+  text-decoration: underline;
+}
+
+/* Project Section Layout Improvements */
+#projects {
+  scroll-margin-top: 2rem;
+}
+
+.section-heading {
+  margin-top: 4rem;
+  position: relative;
+}
+
+/* Match project styling to screenshot */
+.projects-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 3rem;
+  margin-top: 2.5rem;
+  margin-bottom: 3rem;
 }
 
 /* Project Section Layout Improvements */
@@ -415,47 +432,6 @@ blockquote cite {
     var(--border), 
     transparent
   );
-}
-
-/* Make project links more prominent */
-.project-links {
-  display: flex;
-  gap: 1rem;
-  margin-top: auto;
-  padding-top: 1rem;
-}
-
-.project-links a {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  padding: 0.5rem 0.75rem;
-  background-color: rgba(77, 171, 247, 0.1);
-  border-radius: 6px;
-  transition: all 0.3s ease;
-}
-
-.project-links a:hover {
-  background-color: var(--accent);
-  color: white;
-  transform: translateY(-2px);
-}
-
-/* Responsive adjustments for projects grid */
-@media (min-width: 769px) and (max-width: 1100px) {
-  .projects-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (max-width: 768px) {
-  .projects-grid {
-    grid-template-columns: 1fr;
-  }
-  
-  .project-card {
-    margin-bottom: 1.5rem;
-  }
 }
 
 /* Table styling */
@@ -596,7 +572,7 @@ tbody tr:hover {
   overflow: visible;
 }
 
-/* Hide site logo in the header */
+/* Style site logo in the header */
 .site-nav .logo,
 .site-nav .logo a,
 .navbar-inner .logo,
@@ -605,16 +581,25 @@ a.navbar-item[href="/"],
 .site-title,
 .site-title-container,
 a.site-title {
-  display: none !important;
-  visibility: hidden !important;
-  width: 0 !important;
-  height: 0 !important;
-  overflow: hidden !important;
-  opacity: 0 !important;
-  position: absolute !important;
-  left: -9999px !important;
-  font-size: 0 !important;
-  z-index: -1 !important;
+  display: block !important;
+  visibility: visible !important;
+  color: var(--text-primary) !important;
+  font-weight: 700 !important;
+  font-size: 1.4rem !important;
+}
+.site-nav .logo,
+.site-nav .logo a,
+.navbar-inner .logo,
+.navbar-inner .logo a,
+a.navbar-item[href="/"],
+.site-title,
+.site-title-container,
+a.site-title {
+  display: block !important;
+  visibility: visible !important;
+  color: var(--text-primary) !important;
+  font-weight: 700 !important;
+  font-size: 1.4rem !important;
 }
 
 /* This ensures the header displays properly */
@@ -624,16 +609,15 @@ a.site-title {
   flex: 1;
 }
 
-/* Fix for duplicate blog title in N-gram page */
+/* Style navbar links properly */
 .navbar-inner > div > a,
 .navbar > div > a,
 .site-nav > div > a {
-  display: none !important;
-  visibility: hidden !important;
-  width: 0 !important;
-  height: 0 !important;
-  position: absolute !important;
-  left: -9999px !important;
+  display: block !important;
+  visibility: visible !important;
+  color: var(--text-primary) !important;
+  font-weight: 700 !important;
+  text-decoration: none !important;
 }
 
 .nav-links {
@@ -1347,24 +1331,15 @@ a[href*="[["] {
   transform: scaleX(1);
 }
 
-/* Improve project emoji styling */
+/* Improve project emoji styling to match screenshot */
 .project-card .emoji {
-  background: linear-gradient(135deg, rgba(77, 171, 247, 0.2), rgba(116, 192, 252, 0.2));
-  width: 36px;
-  height: 36px;
-  border-radius: 50%;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  margin-right: 0.75rem;
-  font-size: 20px;
-  box-shadow: 0 2px 8px rgba(77, 171, 247, 0.15);
-  transition: all 0.3s ease;
+  display: none;
 }
 
-.project-card:hover .emoji {
-  transform: scale(1.1) rotate(5deg);
-  box-shadow: 0 4px 12px rgba(77, 171, 247, 0.25);
+.project-card h3 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
 }
 
 /* Additional Project Card Enhancements */
@@ -1382,11 +1357,40 @@ a[href*="[["] {
 
 .project-card .description {
   flex-grow: 1;
-  margin-bottom: 1.2rem;
+  margin-bottom: 1rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  font-size: 1rem;
 }
 
 .project-tech {
   margin-bottom: 1rem;
+}
+
+/* Tech Tags to match screenshot */
+.project-tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1rem;
+  color: var(--text-secondary);
+}
+
+.project-tech .tech-tag {
+  display: inline;
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  padding: 0;
+  text-transform: none;
+  font-weight: normal;
+  letter-spacing: normal;
+  position: relative;
+}
+
+.project-tech .tech-tag::after {
+  display: none;
 }
 
 /* Final Touches for Project Cards */
@@ -1462,4 +1466,27 @@ a[href*="[["] {
 .project-card > * {
   position: relative;
   z-index: 1;
+}
+
+/* Ensure site title is always visible */
+.navbar-inner,
+.navbar,
+.site-nav {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  width: 100% !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+/* Fix layout of the header to accommodate the title */
+.site-nav:before {
+  content: none !important;
+}
+
+/* Improve spacing in header */
+.site-nav, .navbar, .navbar-inner {
+  padding: 1rem 0 !important;
+  margin-bottom: 2rem !important;
 }
