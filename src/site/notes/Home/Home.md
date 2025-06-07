@@ -10,9 +10,9 @@
     <p>In recent years, I've been deeply involved in projects that combine deep learning with practical applications — building tools, deploying models, and continuously learning from the evolving AI ecosystem.</p>
   </div>
   <div class="contact-links">
-    <a href="mailto:mrudhuhas@gmail.com"><i icon-name="fa-thin fa-envelope"></i> mrudhuhas@gmail.com</a>
+    <a href="mailto:mrudhuhas@gmail.com"><i icon-name="envelope"></i> mrudhuhas@gmail.com</a>
     <a href="https://github.com/MrudhuhasM"><i icon-name="github"></i> GitHub</a>
-    <a href="https://x.com/_mrudhu_"><i icon-name="fa-brands fa-x-twitter"></i> Twitter</a>
+    <a href="https://x.com/_mrudhu_"><i icon-name="twitter"></i> Twitter</a>
   </div>
 </div>
 

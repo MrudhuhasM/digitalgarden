@@ -5,18 +5,13 @@
 
 # Language Modeling - N-gram
 
+<div></div>
+
 <div class="article-meta">
   <span class="article-category">Natural Language Processing</span>
   <span class="reading-time" title="Estimated read time">
     • 10 min read
   </span>
-</div>
-
-<div class="article-tags">
-  <span class="tag">#natural-language-processing</span>
-  <span class="tag">#tokenization</span>
-  <span class="tag">#language-modeling</span>
-  <span class="tag">#n-gram</span>
 </div>
 
 <div class="article-content">
