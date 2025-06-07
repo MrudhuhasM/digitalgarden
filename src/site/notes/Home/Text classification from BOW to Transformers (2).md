@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/home/text-classification-from-bow-to-transformers-2/","tags":["machine-learning","text-classification","natural-language-processing"]}
+{"dg-publish":true,"dg-permalink":"text-classification-from-bow-to-transformers-2","permalink":"/text-classification-from-bow-to-transformers-2/","tags":["machine-learning","text-classification","natural-language-processing"]}
 ---
 
 You're right! I missed incorporating the sections on **classification using embeddings** and **zero-shot classification** while maintaining the flow of the blog post. Let's correct that and provide a comprehensive rewrite that includes those key concepts alongside **prompt-based classification** with generative models.

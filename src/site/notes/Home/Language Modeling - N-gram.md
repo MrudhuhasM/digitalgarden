@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/home/language-modeling-n-gram/","title":"Language Modeling - N-gram","tags":["natural-language-processing","Tokenization","language-modeling","n-gram"]}
+{"dg-publish":true,"dg-permalink":"language-modeling-n-gram","permalink":"/language-modeling-n-gram/","title":"Language Modeling - N-gram","tags":["natural-language-processing","Tokenization","language-modeling","n-gram"]}
 ---
 
 

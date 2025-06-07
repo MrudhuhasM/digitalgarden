@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/home/topic-modeling-with-semantic-vectors-uncovering-hidden-meanings/","tags":["NLP","Semantic_Analysis","Topic_Modeling","LSA","LDA"]}
+{"dg-publish":true,"dg-permalink":"topic-modeling-with-semantic-vectors","permalink":"/topic-modeling-with-semantic-vectors/","tags":["NLP","Semantic_Analysis","Topic_Modeling","LSA","LDA"]}
 ---
 
 

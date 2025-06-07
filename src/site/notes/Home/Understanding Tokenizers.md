@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/home/understanding-tokenizers/","tags":["NLP","Tokenization","NLTK","spaCy","Hugging_Face"]}
+{"dg-publish":true,"dg-permalink":"understanding-tokenizers","permalink":"/understanding-tokenizers/","tags":["NLP","Tokenization","NLTK","spaCy","Hugging_Face"]}
 ---
 
 

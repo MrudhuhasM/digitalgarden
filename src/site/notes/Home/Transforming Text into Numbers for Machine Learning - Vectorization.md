@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/home/transforming-text-into-numbers-for-machine-learning-vectorization/","tags":["NLP","Vectorization","Word_Embeddings","TF-IDF","BOW"]}
+{"dg-publish":true,"dg-permalink":"transforming-text-into-numbers-for-machine-learning","permalink":"/transforming-text-into-numbers-for-machine-learning/","tags":["NLP","Vectorization","Word_Embeddings","TF-IDF","BOW"]}
 ---
 
 

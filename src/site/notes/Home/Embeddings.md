@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/home/embeddings/","tags":["machine-learning","embeddings","natural-language-processing"]}
+{"dg-publish":true,"dg-permalink":"embeddings","permalink":"/embeddings/","tags":["machine-learning","embeddings","natural-language-processing"]}
 ---
 
 

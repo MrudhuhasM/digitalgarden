@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/home/sentiment-analysis-with-logistic-regression/","tags":["machine-learning","sentiment-analysis","logistic-regression","nlp"]}
+{"dg-publish":true,"dg-permalink":"sentiment-analysis-with-logistic-regression","permalink":"/sentiment-analysis-with-logistic-regression/","tags":["machine-learning","sentiment-analysis","logistic-regression","nlp"]}
 ---
 
 

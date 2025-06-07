@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/home/understanding-overfitting-in-machine-learning/","tags":["machine-learning","overfitting","regularization"]}
+{"dg-publish":true,"dg-permalink":"understanding-overfitting-in-machine-learning","permalink":"/understanding-overfitting-in-machine-learning/","tags":["machine-learning","overfitting","regularization"]}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/home/sentiment-analysis-with-naive-bayes-classifier/","tags":["machine-learning","text-classification","sentiment-analysis","naive-bayes","nlp"]}
+{"dg-publish":true,"dg-permalink":"sentiment-analysis-with-naive-bayes-classifier","permalink":"/sentiment-analysis-with-naive-bayes-classifier/","tags":["machine-learning","text-classification","sentiment-analysis","naive-bayes","nlp"]}
 ---
 
 

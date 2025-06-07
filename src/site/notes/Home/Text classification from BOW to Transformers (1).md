@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/home/text-classification-from-bow-to-transformers-1/","tags":["machine-learning","text-classification","natural-language-processing"]}
+{"dg-publish":true,"dg-permalink":"text-classification-from-bow-to-transformers-1","permalink":"/text-classification-from-bow-to-transformers-1/","tags":["machine-learning","text-classification","natural-language-processing"]}
 ---
 
 

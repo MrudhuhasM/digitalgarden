@@ -17,54 +17,6 @@
 </div>
 
 <div class="section-heading">
-  <h2 id="projects">🛠️ Projects</h2>
-</div>
-
-<div class="projects-grid">
-  <div class="project-card">
-    <h3><span class="emoji">🧾</span> Brochure Generation</h3>
-    <p class="description">An AI-powered tool that automatically generates marketing brochures from product descriptions using state-of-the-art language models.</p>
-    <div class="project-tech">
-      <span class="tech-tag">Python</span>
-      <span class="tech-tag">OpenAI</span>
-      <span class="tech-tag">FastAPI</span>
-      <span class="tech-tag">React</span>
-    </div>
-    <div class="project-links">
-      <a href="https://github.com/MrudhuhasM/brochure-generation"><i icon-name="github"></i> GitHub</a>
-      <a href="#"><i icon-name="external-link"></i> Live Demo</a>
-    </div>
-  </div>
-  
-  <div class="project-card">
-    <h3><span class="emoji">🤖</span> NLP Toolkit</h3>
-    <p class="description">A comprehensive library of NLP utilities for text preprocessing, tokenization, vectorization, and basic model implementations.</p>
-    <div class="project-tech">
-      <span class="tech-tag">Python</span>
-      <span class="tech-tag">PyTorch</span>
-      <span class="tech-tag">NLTK</span>
-      <span class="tech-tag">spaCy</span>
-    </div>
-    <div class="project-links">
-      <a href="#"><i icon-name="github"></i> GitHub</a>
-    </div>
-  </div>
-  
-  <div class="project-card">
-    <h3><span class="emoji">📊</span> ML Experiment Tracker</h3>
-    <p class="description">A lightweight tool to track, visualize, and compare machine learning experiments with minimal setup.</p>
-    <div class="project-tech">
-      <span class="tech-tag">Python</span>
-      <span class="tech-tag">Streamlit</span>
-      <span class="tech-tag">SQLite</span>
-    </div>
-    <div class="project-links">
-      <a href="#"><i icon-name="github"></i> GitHub</a>
-    </div>
-  </div>
-</div>
-
-<div class="section-heading">
   <h2 id="blog-posts">✍️ Blog Posts</h2>
 </div>
 
@@ -121,7 +73,7 @@
       <span class="tag">#vectorization</span>
     </div>
     <div class="read-more">
-      <a href="/transforming-text-into-numbers-for-machine-learning-vectorization">Read More →</a>
+      <a href="/transforming-text-into-numbers-for-machine-learning">Read More →</a>
     </div>
   </div>
 </div>
@@ -136,7 +88,7 @@
       <span class="tag">#semantic-analysis</span>
     </div>
     <div class="read-more">
-      <a href="/topic-modeling-with-semantic-vectors-uncovering-hidden-meanings">Read More →</a>
+      <a href="/topic-modeling-with-semantic-vectors">Read More →</a>
     </div>
   </div>
 </div>
@@ -214,4 +166,53 @@
     </div>
   </div>
 </div>
+</div>
+
+
+<div class="section-heading">
+  <h2 id="projects">🛠️ Projects</h2>
+</div>
+
+<div class="projects-grid">
+  <div class="project-card">
+    <h3><span class="emoji">🧾</span> Brochure Generation</h3>
+    <p class="description">An AI-powered tool that automatically generates marketing brochures from product descriptions using state-of-the-art language models.</p>
+    <div class="project-tech">
+      <span class="tech-tag">Python</span>
+      <span class="tech-tag">OpenAI</span>
+      <span class="tech-tag">FastAPI</span>
+      <span class="tech-tag">React</span>
+    </div>
+    <div class="project-links">
+      <a href="https://github.com/MrudhuhasM/brochure-generation"><i icon-name="github"></i> GitHub</a>
+      <a href="#"><i icon-name="external-link"></i> Live Demo</a>
+    </div>
+  </div>
+  
+  <div class="project-card">
+    <h3><span class="emoji">🤖</span> NLP Toolkit</h3>
+    <p class="description">A comprehensive library of NLP utilities for text preprocessing, tokenization, vectorization, and basic model implementations.</p>
+    <div class="project-tech">
+      <span class="tech-tag">Python</span>
+      <span class="tech-tag">PyTorch</span>
+      <span class="tech-tag">NLTK</span>
+      <span class="tech-tag">spaCy</span>
+    </div>
+    <div class="project-links">
+      <a href="#"><i icon-name="github"></i> GitHub</a>
+    </div>
+  </div>
+  
+  <div class="project-card">
+    <h3><span class="emoji">📊</span> ML Experiment Tracker</h3>
+    <p class="description">A lightweight tool to track, visualize, and compare machine learning experiments with minimal setup.</p>
+    <div class="project-tech">
+      <span class="tech-tag">Python</span>
+      <span class="tech-tag">Streamlit</span>
+      <span class="tech-tag">SQLite</span>
+    </div>
+    <div class="project-links">
+      <a href="#"><i icon-name="github"></i> GitHub</a>
+    </div>
+  </div>
 </div>
