@@ -5,8 +5,6 @@
 
 <div class="profile-section">
   <h1>Hi, I'm Mrudhuhas</h1>
-  
-  <div class---
 
 <div class="section-heading">
   <h2 id="projects">🛠️ Projects</h2>
