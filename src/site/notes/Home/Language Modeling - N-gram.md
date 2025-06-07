@@ -297,3 +297,5 @@ To address these limitations, modern language models use smoothing techniques (l
 N-gram language models represent a foundational approach to language modeling. They offer a simple and interpretable way to estimate word probabilities but struggle with long-range dependencies and data sparsity. Despite their limitations, they have played a crucial role in NLP and continue to be useful in applications like text compression, speech recognition, and information retrieval.
 
 While deep learning models like Transformers have largely replaced n-gram models for complex NLP tasks, understanding n-grams provides a valuable perspective on the evolution of language modeling techniques. By combining classical approaches with modern advancements, we can build more efficient and effective NLP systems.
+
+</div>
