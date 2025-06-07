@@ -559,3 +559,162 @@ tbody tr:hover {
 .token.variable {
   color: #ffab70;
 }
+
+/* Search Styling - Fixed Background Transparency Issue */
+.search-container {
+  background-color: rgba(0, 0, 0, 0.8); /* Darker background for better contrast */
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 15;
+  height: 100%;
+  justify-content: center;
+  display: none;
+  backdrop-filter: blur(3px); /* Adds a nice blur effect */
+}
+
+.search-container.active {
+  display: flex;
+}
+
+.search-box {
+  transform: translateY(100px);
+  background-color: var(--bg-secondary);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+  max-width: 80%;
+  width: 900px;
+  border-radius: 15px;
+  padding: 20px;
+  height: fit-content;
+  border: 1px solid var(--border);
+}
+
+.search-box input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 2rem;
+  background-color: var(--bg-secondary);
+  color: var(--text-primary);
+}
+
+.search-box input:focus {
+  outline: none;
+}
+
+/* Search Results Styling */
+#search-results {
+  margin-top: 20px;
+  overflow-y: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  max-height: 50vh;
+  background-color: var(--bg-secondary);
+  border-radius: 8px;
+}
+
+#search-results .searchresult {
+  margin-bottom: 15px;
+  list-style: none;
+  background-color: var(--bg-tertiary);
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  border: 1px solid var(--border);
+}
+
+#search-results .searchresult:hover {
+  border-color: var(--accent);
+}
+
+#search-results .searchresult.active {
+  border: 2px solid var(--accent);
+  box-shadow: 0 0 10px rgba(77, 171, 247, 0.2);
+}
+
+.search-link {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 1.3rem;
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+/* Tag Styling in Search Results */
+.header-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 8px 0;
+}
+
+.header-tags .tag {
+  font-size: 0.75rem;
+  padding: 4px 10px;
+  background-color: var(--tag-bg);
+  color: var(--tag-text);
+  border-radius: 999px;
+  font-weight: 500;
+  transition: background-color var(--transition), color var(--transition);
+  text-decoration: none;
+}
+
+.header-tags .tag:hover {
+  background-color: var(--accent);
+  color: white;
+  text-decoration: none;
+}
+
+.search-box-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  padding-top: 10px;
+  border-top: 1px solid var(--border);
+}
+
+.navigation-hint {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+/* Remove Redundant Name in Header */
+.navbar-inner h1 {
+  display: none;
+}
+
+/* Style updates for the filetree sidebar */
+.filetree-sidebar {
+  background-color: var(--bg-secondary);
+}
+
+.search-button {
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  height: 2.2em;
+  display: flex;
+  align-items: center;
+  min-width: 150px;
+  margin: 10px 40px;
+  cursor: pointer;
+  transition: all var(--transition);
+}
+
+.search-button:hover {
+  border-color: var(--accent);
+  background-color: var(--bg-tertiary);
+}
+
+.search-button .search-icon {
+  margin-left: 10px;
+  margin-right: 5px;
+}
