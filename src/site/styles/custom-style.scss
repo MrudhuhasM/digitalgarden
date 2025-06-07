@@ -773,8 +773,23 @@ html {
   color: white;
 }
 
+/* Blog card read more styling */
+.read-more a {
+  color: var(--accent);
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  margin-top: 0.5rem;
+  transition: transform var(--transition), color var(--transition);
+}
+
+.read-more a:hover {
+  color: var(--accent-hover);
+  transform: translateX(3px);
+}
+
 /* Link underline animation */
-a:not(.blog-card a):not(.project-card a):not(.tag):not(.nav-links a) {
+a:not(.blog-card a):not(.project-card a):not(.tag):not(.nav-links a):not(.read-more a) {
   position: relative;
   text-decoration: none;
 }
