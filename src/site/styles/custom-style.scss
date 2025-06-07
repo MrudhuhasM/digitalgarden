@@ -620,7 +620,7 @@ a.site-title {
 }
 
 /* Fix for duplicate blog title in N-gram page */
-.navbar-inner > div > a,
+/* .navbar-inner > div > a,
 .navbar > div > a,
 .site-nav > div > a {
   display: none !important;
@@ -629,7 +629,7 @@ a.site-title {
   height: 0 !important;
   position: absolute !important;
   left: -9999px !important;
-}
+} */
 
 .nav-links {
   display: flex;
