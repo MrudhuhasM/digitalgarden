@@ -3,7 +3,6 @@
 ---
 
 
-
 <div class="profile-section">
   <h1>Hi, I'm Mrudhuhas</h1>
   <div class="bio">
@@ -18,7 +17,7 @@
 </div>
 
 <div class="section-heading">
-  <h2 id="blog-posts">Blog Posts</h2>
+  <h2 id="blog-posts">✍️ Blog Posts</h2>
 </div>
 
 <div class="blog-grid">
@@ -171,12 +170,12 @@
 
 
 <div class="section-heading">
-  <h2 id="projects">Projects</h2>
+  <h2 id="projects">🛠️ Projects</h2>
 </div>
 
 <div class="projects-grid">
   <div class="project-card">
-    <h3>Brochure Generation</h3>
+    <h3><span class="emoji">🧾</span> Brochure Generation</h3>
     <p class="description">An AI-powered tool that automatically generates marketing brochures from product descriptions using state-of-the-art language models.</p>
     <div class="project-tech">
       <span class="tech-tag">Python</span>
@@ -185,13 +184,13 @@
       <span class="tech-tag">React</span>
     </div>
     <div class="project-links">
-      <a href="https://github.com/MrudhuhasM/brochure-generation"><i icon-name="lucide:github"></i> GitHub</a>
-      <a href="#"><i icon-name="lucide:external-link"></i> Live Demo</a>
+      <a href="https://github.com/MrudhuhasM/brochure-generation"><i icon-name="github"></i> GitHub</a>
+      <a href="#"><i icon-name="external-link"></i> Live Demo</a>
     </div>
   </div>
   
   <div class="project-card">
-    <h3>NLP Toolkit</h3>
+    <h3><span class="emoji">🤖</span> NLP Toolkit</h3>
     <p class="description">A comprehensive library of NLP utilities for text preprocessing, tokenization, vectorization, and basic model implementations.</p>
     <div class="project-tech">
       <span class="tech-tag">Python</span>
@@ -200,12 +199,12 @@
       <span class="tech-tag">spaCy</span>
     </div>
     <div class="project-links">
-      <a href="#"><i icon-name="lucide:github"></i> GitHub</a>
+      <a href="#"><i icon-name="github"></i> GitHub</a>
     </div>
   </div>
   
   <div class="project-card">
-    <h3>ML Experiment Tracker</h3>
+    <h3><span class="emoji">📊</span> ML Experiment Tracker</h3>
     <p class="description">A lightweight tool to track, visualize, and compare machine learning experiments with minimal setup.</p>
     <div class="project-tech">
       <span class="tech-tag">Python</span>
@@ -213,7 +212,7 @@
       <span class="tech-tag">SQLite</span>
     </div>
     <div class="project-links">
-      <a href="#"><i icon-name="lucide:github"></i> GitHub</a>
+      <a href="#"><i icon-name="github"></i> GitHub</a>
     </div>
   </div>
 </div>
