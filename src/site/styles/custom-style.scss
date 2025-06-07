@@ -19,6 +19,11 @@
   --transition: 0.2s ease;
 }
 
+/* Global box-sizing to prevent layout issues */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 /* Global styles */
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -28,6 +33,7 @@ body {
   max-width: 1000px;
   margin: 0 auto;
   padding: 2rem;
+  overflow-x: hidden; /* Prevent horizontal scrollbar */
 }
 
 @media (max-width: 768px) {
@@ -357,6 +363,7 @@ tbody tr:hover {
   font-size: 1.25rem;
   font-weight: 700;
   color: var(--text-primary);
+  display: none; /* Hide the duplicate site name in the header */
 }
 
 .nav-links {
@@ -786,6 +793,18 @@ html {
 .read-more a:hover {
   color: var(--accent-hover);
   transform: translateX(3px);
+}
+
+/* Prevent content overflow */
+img, video, iframe, object, embed {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Fix potential layout issues */
+.content-container, .main-content, .homepage, .article, .blog-grid, .projects-grid {
+  width: 100%;
+  max-width: 100%;
 }
 
 /* Link underline animation */
