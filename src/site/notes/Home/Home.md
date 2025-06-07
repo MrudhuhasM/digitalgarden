@@ -3,30 +3,104 @@
 ---
 
 
-# 👋 Hi, I am Mrudhuhas
+# Hi, I'm Mrudhuhas
 
-Machine learning engineer with 7+ years of experience in building and deploying models, specializing in natural language processing (NLP), large language models (LLMs), and generative AI (GenAI). I have worked extensively with modern architectures such as transformers (BERT, GPT-2) and transfer learning. My expertise includes deploying models on cloud platforms like AWS, with hands-on experience using Docker, Kubernetes, FastAPI, and microservice architectures. Additionally, I am familiar with web technologies, making me versatile in AI-driven solutions.
+I'm a Machine Learning Engineer with over 7 years of experience building and deploying AI solutions. My focus lies in Natural Language Processing, Large Language Models, and Generative AI. I work across the stack — from training transformer architectures like BERT and GPT-2 to deploying scalable microservices on the cloud using Docker, Kubernetes, and FastAPI.
 
-📧 mrudhuhas@gmail.com  | 🖥[MrudhuhasM (Mrudhuhas)](https://github.com/MrudhuhasM)  | 📱 [Mrudhuhas (@_mrudhu_) / X](https://x.com/_mrudhu_)
+In recent years, I've been deeply involved in projects that combine deep learning with practical applications — building tools, deploying models, and continuously learning from the evolving AI ecosystem.
 
+**Contact**:  
+📧 mrudhuhas@gmail.com  
+💻 [GitHub](https://github.com/MrudhuhasM) · 🐦 [X / Twitter](https://x.com/_mrudhu_)
 
-## ✍ Blogs
+---
 
-- [[Home/Language Modeling - N-gram\|Language Modeling - N-gram]]
-- [[Home/Text classification from BOW to Transformers (2)\|Text classification from BOW to Transformers (2)]]
-- [[Home/Text classification from BOW to Transformers (1)\|Text classification from BOW to Transformers (1)]]
-- [[Home/Topic Modeling with Semantic Vectors - Uncovering Hidden Meanings\|Topic Modeling with Semantic Vectors - Uncovering Hidden Meanings]]
-- [[Home/Transforming Text into Numbers for Machine Learning - Vectorization\|Transforming Text into Numbers for Machine Learning - Vectorization]]
-- [[Home/Understanding Tokenizers\|Understanding Tokenizers]]
-- [[Home/Embeddings\|Embeddings]]
-- [[Home/Sentiment Analysis with Logistic Regression\|Sentiment Analysis with Logistic Regression]]
-- [[Home/Sentiment Analysis with Naive Bayes Classifier\|Sentiment Analysis with Naive Bayes Classifier]]
-- [[Home/Understanding Overfitting in Machine Learning\|Understanding Overfitting in Machine Learning]]
+## ✍️ Blog Posts
 
+<div class="blog-grid">
 
-## 🖥 Projects
+  <div class="blog-card">
+    <a href="/Understanding Tokenizers">
+      <h3>Understanding Tokenizers</h3>
+      <p class="description">Breakdown of how tokenizers work in NLP and why they're critical.</p>
+      <span class="tag">#nlp</span>
+    </a>
+  </div>
 
-- [Brochure Generation](https://github.com/MrudhuhasM/brochure-generation)
+  <div class="blog-card">
+    <a href="/Embeddings">
+      <h3>Embeddings</h3>
+      <p class="description">What embeddings are and how they capture semantic meaning.</p>
+      <span class="tag">#vectorization</span>
+    </a>
+  </div>
+
+  <div class="blog-card">
+    <a href="/Sentiment Analysis with Logistic Regression">
+      <h3>Sentiment Analysis with Logistic Regression</h3>
+      <p class="description">Using logistic regression for sentiment analysis tasks.</p>
+      <span class="tag">#sentiment-analysis</span>
+    </a>
+  </div>
+  <div class="blog-card">
+    <a href="/Sentiment Analysis with Naive Bayes Classifier">
+      <h3>Sentiment Analysis with Naive Bayes Classifier</h3>
+      <p class="description">Exploring Naive Bayes for sentiment classification.</p>
+      <span class="tag">#sentiment-analysis</span>
+    </a>
+  </div>
+  <div class="blog-card">
+    <a href="/Understanding Overfitting in Machine Learning">
+      <h3>Understanding Overfitting in Machine Learning</h3>
+      <p class="description">A deep dive into overfitting and how to mitigate it.</p>
+      <span class="tag">#machine-learning</span>
+    </a>
+  </div>
+  <div class="blog-card">
+    <a href="/Transforming Text into Numbers for Machine Learning - Vectorization">
+      <h3>Transforming Text into Numbers for Machine Learning - Vectorization</h3>
+      <p class="description">How to convert text data into numerical format for ML models.</p>
+      <span class="tag">#vectorization</span>
+    </a>
+  </div>
+  <div class="blog-card">
+    <a href="/Topic Modeling with Semantic Vectors - Uncovering Hidden Meanings">
+      <h3>Topic Modeling with Semantic Vectors - Uncovering Hidden Meanings</h3>
+      <p class="description">Using semantic vectors for topic modeling in NLP.</p>
+      <span class="tag">#topic-modeling</span>
+    </a>
+  </div>
+  <div class="blog-card">
+    <a href="/Text classification from BOW to Transformers (2)">
+      <h3>Text classification from BOW to Transformers (2)</h3>
+      <p class="description">Exploring advanced text classification techniques.</p>
+      <span class="tag">#text-classification</span>
+    </a>
+  </div>
+  <div class="blog-card">
+    <a href="/Text classification from BOW to Transformers (1)">
+      <h3>Text classification from BOW to Transformers (1)</h3>
+      <p class="description">An introduction to text classification methods.</p>
+      <span class="tag">#text-classification</span>
+    </a>
+  </div>
+  <div class="blog-card">
+    <a href="/Language Modeling - N-gram">
+      <h3>Language Modeling - N-gram</h3>
+      <p class="description">Understanding N-grams in language modeling.</p>
+      <span class="tag">#language-modeling</span>
+    </a>
+  </div>
+</div>
 
 
 ---
+
+## 🛠️ Projects
+
+These are a few projects I’ve built, published, or am currently exploring:
+
+- [🧾 Brochure Generation](https://github.com/MrudhuhasM/brochure-generation)
+
+---
+
