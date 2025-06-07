@@ -352,18 +352,22 @@ tbody tr:hover {
 /* Navigation */
 .site-nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end; /* Force nav links to the right */
   align-items: center;
   padding: 1rem 0;
   margin-bottom: 2rem;
   border-bottom: 1px solid var(--border);
+  width: 100%;
+  overflow: visible;
 }
 
 .site-nav .logo {
-  font-size: 1.25rem;
-  font-weight: 700;
-  color: var(--text-primary);
-  display: none; /* Hide the duplicate site name in the header */
+  display: none !important; /* Ensure the logo is hidden with higher specificity */
+  visibility: hidden;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  opacity: 0;
 }
 
 .nav-links {
@@ -799,11 +803,27 @@ html {
 img, video, iframe, object, embed {
   max-width: 100%;
   height: auto;
+  display: block;
 }
 
 /* Fix potential layout issues */
 .content-container, .main-content, .homepage, .article, .blog-grid, .projects-grid {
   width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Fix horizontal scrollbar issues */
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+  max-width: 100vw;
+  position: relative;
+}
+
+/* Force all elements to respect container widths */
+* {
+  box-sizing: border-box;
   max-width: 100%;
 }
 
@@ -856,4 +876,53 @@ a:not(.blog-card a):not(.project-card a):not(.tag):not(.nav-links a):hover::afte
 :focus-visible {
   outline: 2px solid var(--accent);
   outline-offset: 2px;
+}
+
+/* Digital Garden Internal Links and Tags Fix */
+
+/* Ensure proper link rendering for wikilinks */
+a.internal-link {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a.internal-link:hover {
+  color: var(--accent-hover);
+  text-decoration: underline;
+}
+
+/* Tag fixes */
+span.tag, a.tag, div.tag {
+  display: inline-flex !important;
+  align-items: center !important;
+  white-space: nowrap !important;
+  position: relative;
+}
+
+span.tag::before, a.tag::before, div.tag::before {
+  display: none !important;
+  content: none !important;
+}
+
+/* Improve hover effects for tags */
+.tag:hover {
+  background-color: var(--accent) !important;
+  color: white !important;
+  text-decoration: none !important;
+}
+
+/* Fix the broken links */
+a[href*="[["] {
+  color: var(--accent);
+}
+
+/* Style headings in content */
+.cm-s-obsidian h1,
+.cm-s-obsidian h2,
+.cm-s-obsidian h3,
+.cm-s-obsidian h4,
+.cm-s-obsidian h5,
+.cm-s-obsidian h6 {
+  color: var(--text-primary);
+  font-weight: 700;
 }
