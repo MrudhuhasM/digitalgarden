@@ -3,19 +3,27 @@
 ---
 
 
-# Hi, I'm Mrudhuhas
+<div class="profile-section">
+  <h1>Hi, I'm Mrudhuhas</h1>
+  
+  <div class="profile-bio">
+    <p>I'm a Machine Learning Engineer with over 7 years of experience building and deploying AI solutions. My focus lies in Natural Language Processing, Large Language Models, and Generative AI. I work across the stack — from training transformer architectures like BERT and GPT-2 to deploying scalable microservices on the cloud using Docker, Kubernetes, and FastAPI.</p>
+    
+    <p>In recent years, I've been deeply involved in projects that combine deep learning with practical applications — building tools, deploying models, and continuously learning from the evolving AI ecosystem.</p>
+  </div>
+  
+  <div class="contact-links">
+    <a href="mailto:mrudhuhas@gmail.com">📧 mrudhuhas@gmail.com</a>
+    <a href="https://github.com/MrudhuhasM">💻 GitHub</a>
+    <a href="https://x.com/_mrudhu_">🐦 Twitter</a>
+  </div>
+</div>
 
-I'm a Machine Learning Engineer with over 7 years of experience building and deploying AI solutions. My focus lies in Natural Language Processing, Large Language Models, and Generative AI. I work across the stack — from training transformer architectures like BERT and GPT-2 to deploying scalable microservices on the cloud using Docker, Kubernetes, and FastAPI.
+<div class="section-heading">
+  <h2 id="blog-posts">✍️ Blog Posts</h2>
+</div>
 
-In recent years, I've been deeply involved in projects that combine deep learning with practical applications — building tools, deploying models, and continuously learning from the evolving AI ecosystem.
-
-**Contact**:  
-📧 mrudhuhas@gmail.com  
-💻 [GitHub](https://github.com/MrudhuhasM) · 🐦 [X / Twitter](https://x.com/_mrudhu_)
-
----
-
-## ✍️ Blog Posts
+<div class="blog-grid">
 
 <div class="blog-card">
   <a href="/Language Modeling - N-gram">
