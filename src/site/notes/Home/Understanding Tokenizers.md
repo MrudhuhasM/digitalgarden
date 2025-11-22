@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"understanding-tokenizers","permalink":"/understanding-tokenizers/","tags":["NLP","Tokenization","NLTK","spaCy","Hugging_Face"]}
+{"dg-publish":true,"dg-permalink":"understanding-tokenizers","permalink":"/understanding-tokenizers/","title":"Understanding Tokenizers: The Building Blocks of NLP","tags":["NLP","Tokenization","NLTK","spaCy","Hugging_Face"]}
 ---
 
 
