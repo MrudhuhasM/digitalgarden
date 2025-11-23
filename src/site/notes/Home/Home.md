@@ -5,7 +5,7 @@
 
 # Mrudhuhas
 
-Machine Learning Engineer specializing in NLP, Large Language Models, and production AI systems. Building and deploying solutions across the stack—from training transformers to cloud-native microservices with Docker, Kubernetes, and FastAPI.
+Machine Learning Engineer with 8+ years specializing in LLM infrastructure, inference optimization, and production AI systems. Building scalable solutions from training transformers to cloud-native deployments with Docker, Kubernetes, and FastAPI.
 
 **Contact:** [mrudhuhas@gmail.com](mailto:mrudhuhas@gmail.com) · [GitHub](https://github.com/MrudhuhasM) · [Kaggle](https://www.kaggle.com/mrudhuhas) · [Twitter](https://x.com/_mrudhu_)
 
