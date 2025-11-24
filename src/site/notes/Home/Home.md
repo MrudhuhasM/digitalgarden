@@ -5,7 +5,7 @@
 
 # Mrudhuhas
 
-Machine Learning Engineer with 8+ years specializing in NLP, Large Language Models, and production 
+Machine Learning Engineer with 7+ years specializing in NLP, Large Language Models, and production 
 AI systems. Building and deploying solutions across the stack—from training and fine-tuning 
 transformers to cloud-native microservices with Docker, Kubernetes, and FastAPI.
 
